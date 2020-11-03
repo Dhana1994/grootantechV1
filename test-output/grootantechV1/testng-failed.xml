@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [grootantechV1]">
+  <test thread-count="5" name="GrootantechWebsite Test(failed)">
+    <classes>
+      <class name="com.grootantech.testCases.ImageComparison">
+        <methods>
+          <include name="teardown"/>
+          <include name="compareImage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.grootantech.testCases.ImageComparison -->
+    </classes>
+  </test> <!-- GrootantechWebsite Test(failed) -->
+</suite> <!-- Failed suite [grootantechV1] -->

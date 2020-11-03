@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="grootantechV1">
+
+<test name="GrootantechWebsite Test">
+
+<classes>
+
+<!-- <class name="com.grootantech.testCases.Screenshot"/>  -->
+<!-- <class name="com.grootantech.testCases.TC_002"/> -->
+ <class name="com.grootantech.testCases.ImageComparison"/> 
+</classes>
+  
+</test>
+</suite>
