@@ -7,7 +7,7 @@
 <classes>
 
  <class name="com.grootantech.testCases.Screenshot"/>  
- <class name="com.grootantech.testCases.ReRun"/>  
+ <class name="com.grootantech.testCases.ReRun"/> 
 <class name="com.grootantech.testCases.ImageComparison"/> 
 </classes>
   

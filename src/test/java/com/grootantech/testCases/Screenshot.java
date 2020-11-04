@@ -18,6 +18,7 @@ public class Screenshot extends BaseClass {
 
 		WriteExcel we = new WriteExcel();
 		try {
+			
 			driver.get(baseURL);
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 

@@ -2,32 +2,26 @@
 <testng-results skipped="0" failed="1" ignored="4" total="8" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="grootantechV1" duration-ms="70356" started-at="2020-11-04T14:31:07Z" finished-at="2020-11-04T14:32:18Z">
+  <suite name="grootantechV1" duration-ms="148631" started-at="2020-11-04T18:05:09Z" finished-at="2020-11-04T18:07:38Z">
     <groups>
     </groups>
-    <test name="GrootantechWebsite Test" duration-ms="70356" started-at="2020-11-04T14:31:07Z" finished-at="2020-11-04T14:32:18Z">
+    <test name="GrootantechWebsite Test" duration-ms="148631" started-at="2020-11-04T18:05:09Z" finished-at="2020-11-04T18:07:38Z">
       <class name="com.grootantech.testCases.Screenshot">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.grootantech.testCases.Screenshot@11053e1]" name="setup" is-config="true" duration-ms="8043" started-at="2020-11-04T14:31:07Z" finished-at="2020-11-04T14:31:15Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.grootantech.testCases.Screenshot@11053e1]" name="setup" is-config="true" duration-ms="7416" started-at="2020-11-04T18:05:09Z" finished-at="2020-11-04T18:05:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="TC_Screenshot_1()[pri:1, instance:com.grootantech.testCases.Screenshot@11053e1]" name="TC_Screenshot_1" duration-ms="15203" started-at="2020-11-04T14:31:15Z" description="Opens the Website and captures screenshot for all the section" finished-at="2020-11-04T14:31:31Z">
+        <test-method status="PASS" signature="TC_Screenshot_1()[pri:1, instance:com.grootantech.testCases.Screenshot@11053e1]" name="TC_Screenshot_1" duration-ms="55361" started-at="2020-11-04T18:05:16Z" description="Opens the Website and captures screenshot for all the section" finished-at="2020-11-04T18:06:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_Screenshot_1 -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.grootantech.testCases.Screenshot@11053e1]" name="teardown" is-config="true" duration-ms="237" started-at="2020-11-04T14:32:17Z" finished-at="2020-11-04T14:32:18Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.grootantech.testCases.Screenshot@11053e1]" name="teardown" is-config="true" duration-ms="319" started-at="2020-11-04T18:07:37Z" finished-at="2020-11-04T18:07:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.grootantech.testCases.Screenshot -->
-      <class name="com.grootantech.testCases.TC_002">
-        <test-method status="PASS" signature="TC_ScreenshotCompare_2()[pri:2, instance:com.grootantech.testCases.TC_002@9838eb]" name="TC_ScreenshotCompare_2" duration-ms="12466" started-at="2020-11-04T14:31:31Z" description="Reruns Suite and Comapare screenshot with already captured screenshots" finished-at="2020-11-04T14:31:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_ScreenshotCompare_2 -->
-      </class> <!-- com.grootantech.testCases.TC_002 -->
       <class name="com.grootantech.testCases.ImageComparison">
-        <test-method status="FAIL" signature="compareImage()[pri:3, instance:com.grootantech.testCases.ImageComparison@dafa95]" name="compareImage" duration-ms="2363" started-at="2020-11-04T14:31:43Z" description="Image Comparison of CTO &amp; HR" finished-at="2020-11-04T14:31:45Z">
+        <test-method status="FAIL" signature="compareImage()[pri:3, instance:com.grootantech.testCases.ImageComparison@dafa95]" name="compareImage" duration-ms="2865" started-at="2020-11-04T18:07:02Z" description="Image Comparison of CTO &amp; HR" finished-at="2020-11-04T18:07:05Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -38,7 +32,7 @@ at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertTrue(Assert.java:44)
 at org.testng.Assert.assertTrue(Assert.java:54)
-at com.grootantech.testCases.ImageComparison.compareImage(ImageComparison.java:69)
+at com.grootantech.testCases.ImageComparison.compareImage(ImageComparison.java:67)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -70,11 +64,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- compareImage -->
-        <test-method status="PASS" signature="getDesignationReport()[pri:4, instance:com.grootantech.testCases.ImageComparison@dafa95]" name="getDesignationReport" duration-ms="31972" started-at="2020-11-04T14:31:45Z" description="Writing Junior Engineer Names in Excel" finished-at="2020-11-04T14:32:17Z">
+        <test-method status="PASS" signature="getDesignationReport()[pri:4, instance:com.grootantech.testCases.ImageComparison@dafa95]" name="getDesignationReport" duration-ms="31804" started-at="2020-11-04T18:07:05Z" description="Writing Junior Engineer Names in Excel" finished-at="2020-11-04T18:07:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDesignationReport -->
       </class> <!-- com.grootantech.testCases.ImageComparison -->
+      <class name="com.grootantech.testCases.ReRun">
+        <test-method status="PASS" signature="TC_ScreenshotCompare_2()[pri:2, instance:com.grootantech.testCases.ReRun@9838eb]" name="TC_ScreenshotCompare_2" duration-ms="50699" started-at="2020-11-04T18:06:12Z" description="Reruns Suite and Comapare screenshot with already captured screenshots" finished-at="2020-11-04T18:07:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_ScreenshotCompare_2 -->
+      </class> <!-- com.grootantech.testCases.ReRun -->
     </test> <!-- GrootantechWebsite Test -->
   </suite> <!-- grootantechV1 -->
 </testng-results>
