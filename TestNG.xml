@@ -6,9 +6,9 @@
 
 <classes>
 
-<!-- <class name="com.grootantech.testCases.Screenshot"/>  -->
-<!-- <class name="com.grootantech.testCases.TC_002"/> -->
- <class name="com.grootantech.testCases.ImageComparison"/> 
+ <class name="com.grootantech.testCases.Screenshot"/>  
+ <class name="com.grootantech.testCases.ReRun"/>  
+<class name="com.grootantech.testCases.ImageComparison"/> 
 </classes>
   
 </test>

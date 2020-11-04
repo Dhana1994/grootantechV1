@@ -5,6 +5,7 @@
     <classes>
       <class name="com.grootantech.testCases.ImageComparison">
         <methods>
+          <include name="getDesignationReport"/>
           <include name="teardown"/>
           <include name="compareImage"/>
           <include name="setup"/>
